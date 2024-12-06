@@ -36,13 +36,13 @@ export default ModalElement;
 
 export const StyleBox = styled(Box)({
   position: "absolute",
-  top: "0",
-  right: "1px",
+  top: "2px",
+  right: "3px",
   padding: "20px",
   backgroundColor: "whitesmoke",
 
-  width: "400px",
-  height: "100vh",
+  width: "150px",
+  minheight: "20vh",
   bgcolor: "background.paper",
 
   borderRadius: "8px",
@@ -57,5 +57,6 @@ export const StyledButton = styled(ButtonElement)({
   color: "#13b1fb",
   backgroundColor: "#f8f7f7",
   boxShadow: "none",
-  paddingRight: "0.2px",
+ 
+  
 });

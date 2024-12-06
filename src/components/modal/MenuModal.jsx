@@ -12,7 +12,7 @@ const MenuModal = () => {
     <Portal>
       <Modal
         open={true}
-        onClose={() => navigate(-1)}
+        onClose={() => navigate("/")}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
@@ -29,7 +29,7 @@ const MenuModal = () => {
           >
             Image
           </MenuItem>
-          <StyledButton onClick={() => navigate(-1)}>Закрыть</StyledButton>
+          <StyledButton onClick={() => navigate("/")}>Закрыть</StyledButton>
         </StyleBox>
       </Modal>
     </Portal>

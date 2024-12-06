@@ -33,7 +33,6 @@ export const IMAGES = [
   },
   {
     id: "e6",
-    image:
-      "https://i.pinimg.com/originals/8b/bd/b7/8bbdb77e3f861dd4f2a3dfa650bc4e86.jpg",
+    image: "https://vesti-omsk.ru/media/2023/02/photo_2023-02-12_08-42-57.webp",
   },
 ];
